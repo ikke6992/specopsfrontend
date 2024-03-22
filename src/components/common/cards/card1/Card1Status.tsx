@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 interface Props {
   start: string;
   end: string;

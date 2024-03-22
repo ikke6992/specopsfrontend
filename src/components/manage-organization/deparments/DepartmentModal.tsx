@@ -21,7 +21,6 @@ const DepartmentModal = (props: {
       }`}
       edit={false}
       close={props.close}
-      deactivate={props.close}
       submit={() => {
         if (props.id) submitDepartment(props.type, name, props.id);
         else submitDepartment(props.type, name);
