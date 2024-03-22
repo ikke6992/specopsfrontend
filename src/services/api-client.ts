@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const api = "http://localhost:8080";
-export const web = "http://localhost:5173";
+const api = "https://specops-latest.onrender.com";
+export const web = "https://specopsfrontend.onrender.com";
 
 export const post = (resource: string, body: object) => {
   const headers = {
